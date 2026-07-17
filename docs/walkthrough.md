@@ -42,7 +42,7 @@ Notes: delegated scopes are for a signed in user, app roles with member type App
 
 The client apps are separate registrations from the API. The Employees Client was registered as a single tenant app with redirect `https://jwt.ms`, which lets a token be returned to the browser and decoded there.
 
-![Register the client](screenshots/docs/screenshots/register-the-client.png)
+![Register the client](screenshots/register-the-client.png)
 
 The Employees Daemon was registered and given a client secret. A confidential client authenticates as itself with a credential, and the portal only shows the secret value once.
 
