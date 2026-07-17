@@ -47,7 +47,6 @@ This is why the two tokens look so different. The user token carries `scp` plus 
 ## App registration vs enterprise application
 
 - **App registration** is the blueprint. It is the global definition of the app: its client ID, its redirect URIs, its credentials, the scopes it exposes, the app roles it defines, and the API permissions it requests. There is one registration, and it lives in the tenant that owns the app. In the portal it is under **App registrations**.
-
 - **Enterprise application (service principal)** is the running instance of that app inside a tenant. It is what actually exists and acts in the directory. This is where users and groups are assigned to app roles, where sign in logs show up, and where tenant wide consent is granted or "assignment required" is set. In the portal it is under **Enterprise applications**.
 
 One registration produces one service principal per tenant that uses the app. A multi tenant app has one registration in the home tenant and a separate service principal in every customer tenant.
