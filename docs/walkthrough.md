@@ -111,7 +111,7 @@ Notes: everything set up earlier was invisible until here. A user token carries 
 
 The client credentials request was run from WSL, with no browser and no user. The daemon token carried `roles: app-Employees.Read.All`, no `scp`, no user claims, `appid` set to the daemon, and `appidacr` of 1 meaning it authenticated with a secret.
 
-![Daemon token roles](screenshots/curl-post-deamon)
+![Daemon token roles](screenshots/curl-post-deamon.png)
 
 Notes: app only tokens carry permissions in `roles`, not `scp`, and there is no user identity in them. The secret is the login, so no interactive sign in happens at all. This is the concrete contrast to the user tokens in step 7.
 
