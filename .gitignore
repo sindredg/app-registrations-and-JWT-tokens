@@ -1,0 +1,14 @@
+# build output
+bin/
+obj/
+
+# secrets, never commit these
+*.secret
+*.pfx
+*.pem
+appsettings.*.Local.json
+.env
+
+# scratch notes that had the real secret in them
+scratch/
+notepad notes.txt
