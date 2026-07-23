@@ -1,6 +1,4 @@
-kdown# Working notes
-
-Secrets and passwords are redacted on purpose, do not put them back in.
+Working notes:
 
 ## The pieces that were set up
 

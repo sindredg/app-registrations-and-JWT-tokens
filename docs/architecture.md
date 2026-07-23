@@ -61,7 +61,7 @@ Rule of thumb: define capabilities on the registration, grant and assign them on
 
 ## How this maps to a real product
 
-The lab is Contoso's HR Portal, but the shape is any modern app with a backend API:
+The lab simulates an internal HR Portal, but the shape is any modern app with a backend API:
 
 - The **API registration** is the backend. It publishes scopes for what user facing clients may do and app roles for what daemons may do, and its code enforces them.
 - The **web/SPA/mobile registration** is the frontend. It signs users in and calls the API on their behalf with delegated tokens. In production it uses the auth code flow with PKCE, not the implicit flow used here to grab a token quickly in the browser.

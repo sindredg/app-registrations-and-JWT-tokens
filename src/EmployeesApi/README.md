@@ -2,7 +2,6 @@
 
 A minimal .NET 8 API that protects two endpoints with Microsoft Entra ID and makes its allow or deny decision purely from the claims in the incoming token. This is the part of the lab that turns the portal configuration into real enforcement.
 
-> Note: this component was written and debugged with help from Claude.
 ## What it does
 
 Every request must carry a valid bearer token issued by the tenant for this API's audience. Once the token is validated, each endpoint reads specific claims and returns 200 or 403.

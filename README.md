@@ -1,8 +1,8 @@
-# Entra ID App Registration Lab
-
 A hands on lab implementing the full application authorization chain in Microsoft Entra ID, inspired by the Microsoft Learn module *Implement app registration* (SC-300). It registers a protected API, two client applications, and drives authorization end to end: exposing scopes, granting consent, defining app roles, assigning access through groups, and enforcing the resulting token claims in a working .NET 8 API.
 
-Built and tested in a tenant with an Entra ID P2 license. The Entra configuration was performed manually. The accompanying .NET API was written with assistance from Claude.
+Built and tested in a real tenant.
+
+*Check [docs(docs/walkthroug.md](docs/walkthrough.md) for the workflow.*
 
 ## Overview
 
@@ -29,7 +29,7 @@ The scenario models an in house HR Portal: the API is the backend, the Client is
 .
 ├── README.md
 ├── docs/
-│   ├── walkthrough.md      the lab, step by step, with screenshots
+│   ├── walkthrough.md      the setup, step by step, with screenshots
 │   ├── architecture.md     design, token flow, real world mapping
 │   ├── lab-guide.md         reusable procedure to reproduce the lab
 │   ├── notes.md             working notes and commands
