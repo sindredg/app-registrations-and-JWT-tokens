@@ -2,7 +2,7 @@ A project exploring implementing the full application authorization chain in Mic
 
 Built and tested in a real  environment.
 
-*Check ([(docs/walkthroug.md](docs/walkthrough.md)) for the workflow.*
+*See [(docs/walkthroug.md](docs/walkthrough.md) for the workflow.*
 
 ## Overview
 
