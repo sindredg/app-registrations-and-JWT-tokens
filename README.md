@@ -1,6 +1,6 @@
-A hands on lab implementing the full application authorization chain in Microsoft Entra ID, inspired by the Microsoft Learn module *Implement app registration* (SC-300). It registers a protected API, two client applications, and drives authorization end to end: exposing scopes, granting consent, defining app roles, assigning access through groups, and enforcing the resulting token claims in a working .NET 8 API.
+A project exploring implementing the full application authorization chain in Microsoft Entra ID, inspired by the Microsoft Learn module *Implement app registration* (SC-300). It registers a protected API, two client applications, and drives authorization end to end: exposing scopes, granting consent, defining app roles, assigning access through groups, and enforcing the resulting token claims in a working .NET 8 API.
 
-Built and tested in a real tenant.
+Built and tested in a real  environment.
 
 *Check [docs(docs/walkthroug.md](docs/walkthrough.md) for the workflow.*
 

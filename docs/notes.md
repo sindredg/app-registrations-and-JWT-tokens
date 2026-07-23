@@ -1,6 +1,8 @@
+<<<<<<< HEAD
 Working notes:
 
-
+=======
+>>>>>>> 789345934cfbd03e5e17f6592ecd1f51e5947d42
 ## The pieces that were set up
 
 - Tenant: `<TENANT_ID>`
