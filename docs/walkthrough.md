@@ -42,7 +42,7 @@ Notes: delegated scopes are for a signed in user, app roles with member type App
 
 The client apps are separate registrations from the API. The Employees Client was registered as a single tenant app with redirect `https://jwt.ms`, which lets a token be returned to the browser and decoded there.
 
-![Register the client](screenshots/register-client.png)
+![Register the client](screenshots/register-the-client.png)
 
 The Employees Daemon was registered and given a client secret. A confidential client authenticates as itself with a credential, and the portal only shows the secret value once.
 
@@ -111,7 +111,7 @@ Notes: everything set up earlier was invisible until here. A user token carries 
 
 The client credentials request was run from WSL, with no browser and no user. The daemon token carried `roles: app-Employees.Read.All`, no `scp`, no user claims, `appid` set to the daemon, and `appidacr` of 1 meaning it authenticated with a secret.
 
-![Daemon token roles](screenshots/curl-post-deamon)
+![Daemon token roles](screenshots/curl-post-deamon.png)
 
 Notes: app only tokens carry permissions in `roles`, not `scp`, and there is no user identity in them. The secret is the login, so no interactive sign in happens at all. This is the concrete contrast to the user tokens in step 7.
 
